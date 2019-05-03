@@ -19,9 +19,10 @@ return "done";
 }
 
 function doWhileLoop(num) {
+num = num + 1;
  return num;
 }
 
 do {
  console.log("I run once regardless.");
-} while (doWhileLoop() < 0);
+} while (doWhileLoop() <= 0);
