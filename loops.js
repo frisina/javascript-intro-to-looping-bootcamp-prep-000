@@ -30,5 +30,3 @@ function doWhileLoop(num) {
     console.log("doo-bee-doo-bee-doo");
   } while (incrementVariable() < num);
 }
-
-
