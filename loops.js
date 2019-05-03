@@ -21,10 +21,13 @@ return "done";
 var num = 0;
 
 function doWhileLoop(num) {
-num = num + 1;
- return num;
+}
+
+function incrementVariable() {
+  i = i + 1;
+  return i;
 }
 
 do {
- console.log("I run once regardless.");
-} while (doWhileLoop() <= num);
+  console.log("I run once regardless.");
+} while (incrementVariable() < num);
