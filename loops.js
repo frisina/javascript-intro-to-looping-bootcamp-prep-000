@@ -27,4 +27,4 @@ num = num + 1;
 
 do {
  console.log("I run once regardless.");
-} while (doWhileLoop() < num);
+} while (doWhileLoop() <= num);
