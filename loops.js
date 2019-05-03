@@ -31,4 +31,4 @@ return num;
 
 do {
   console.log("doo-bee-doo-bee-doo");
-} while (incrementVariable() > doWhileLoop(num));
+} while (incrementVariable() < doWhileLoop(num));
