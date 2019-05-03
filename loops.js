@@ -26,9 +26,9 @@ function incrementVariable() {
 }
 
 function doWhileLoop(num) {
-return num;
+  do {
+    console.log("doo-bee-doo-bee-doo");
+  } while (incrementVariable() < num);
 }
 
-do {
-  console.log("doo-bee-doo-bee-doo");
-} while (incrementVariable() < doWhileLoop(num));
+
